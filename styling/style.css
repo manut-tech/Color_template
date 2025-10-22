@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+.icon {
+  cursor: pointer;
+}
+.search-bar-input:focus {
+  border: transparent;
+  outline: none;
+  padding: 0 10px;
+  font-size: 15px;
+}
+.wrapper-color-templates {
+  border-radius: 30px;
+  overflow: hidden;
+  width: fit-content; /* optional */
+  height: 100%; /* important for vertical centering in grid */
+  margin: auto;
+}
+.color-views {
+  text-decoration: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: transparent;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.color-views:hover {
+  color: black;
+  width: 100px;
+  cursor: pointer;
+  padding: 0 30px;
+}
+.textarea {
+  color: black;
+  font-size: 39px;
+}
+.js-text-alert {
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: green;
+}
+
+.checked-icon-green {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transform: translate(15px, 30px);
+}
